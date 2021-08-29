@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@android:dimen/thumbnail_height">
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#00B8D4"
+            android:onClick="About"
+            android:padding="1dp"
+            android:paddingLeft="1dp"
+            android:text="About"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Contact"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:background="#00B8D4"
+            android:onClick="Contact"
+            android:text="Contact"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Departments"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:background="#00B8D4"
+            android:onClick="Departments"
+            android:text="Departments"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="101dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Cummins College Of Engineering,Pune"
+        android:textAllCaps="true"
+        android:textColor="#00B8D4"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+</RelativeLayout>

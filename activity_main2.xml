@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00B8D4"
+                android:text="About"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BBEDF4"
+                android:text="The College Cummins College of Engineering for Women (CCEW) comes under the umbrella of its parent institution, Maharshi Karve Stree Shikshan Samstha (MKSSS). . Cummins College is the first all women engineering college in India established in the year 1991 with support from Cummins Diesel (India) Foundation. It is located in Pune, Maharashtra State and is well known as ‘Oxford of the East’ with strong Computer, IT, Mechanical, Automobile and Electronics industry hub. The first undergraduate batch of CCEW passed out in July 1995, coinciding with the centenary of its parent institution.  CCEW is recognized for its rigor in academics and dedicated faculty, successful alumnae being its outcome. CCEW has a strong association with the industry and is recognized for providing quality recruits for the industry.  Accreditation’s The departments of Cummins College of Engineering for Women, are accredited in 1998, 2002, 2006, 2012 and 2016 by National Board of Accreditation.  Cummins College is also accredited by NAAC at “A” grade in 2012 and 2017 for next five years. Autonomous Status to the Institute MKSSS’s Cummins College of Engineering for Women is an autonomous College from Academic Year: 2016-2017"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
